@@ -8,6 +8,8 @@ body {
     font-family: 'Nunito Sans', sans-serif;
 }
 
+/* Header med tjänster & gå med knapp börjar här */
+
 .del-1 {
     height: 25rem;
     width: 100%;
@@ -17,6 +19,7 @@ body {
     border: 4px solid white;
 }
 
+/* Ruta med tjänster */
 #yoga {
     height: 4rem;
     width: 38rem;
@@ -24,7 +27,7 @@ body {
     top: 30%;
     left: 5%;
 }
-
+/* Rubrik till tjänster */
 #yogi {
     color:#c7b1ac;
     font-size: 3rem;
@@ -37,6 +40,7 @@ body {
 
 }
 
+/* Lista med tjänster */
 #yogi1 {
     color: #c7b1ac;
     font-size: 15px;
@@ -49,6 +53,7 @@ body {
     letter-spacing: 2px;
 }
 
+/* "Gå med!"-knapp */
 .yogi2 {
     position: relative;
     top: 60%;
@@ -56,7 +61,12 @@ body {
     font-size: 23px;
 }
 
-.h3 {
+
+
+/* Här börjar personaldelen */
+
+/* Rubrik */
+.vilkaärvi {
     text-align: center;
     margin: 2rem;
     position: relative;
@@ -64,8 +74,10 @@ body {
     color: white;
     text-transform: uppercase;
     letter-spacing: 30px;
+    font-size: 2rem;
 }
 
+/* Personalbilder och beskrivningar */
 .gridbox {
     padding: 3rem;
     display: grid;
@@ -172,6 +184,7 @@ h4 {
 font-weight: bold;
 }
 
+/* Ikoner */
 #grid9 {
     color: #37373d;
 padding: 1.5rem;
@@ -196,6 +209,8 @@ i {
     margin-right: 0.4rem;
 }
 
+/* Kontaktbeskrivning och formulär börjar här */
+
 .kontakt {
     height: 90%;
     width: 100%;
@@ -206,6 +221,7 @@ i {
     padding: 20px;
     }
 
+/* Text i ruta 1, kontaktbeskrivning */ 
 #kontakta-oss {
     border: 4px solid #ddcdd2;
     background: white;
@@ -215,15 +231,18 @@ i {
     overflow: scroll;
     padding: 3rem;
     line-height: 30px;
+    color: #40333a;
+
 }
 
-#h4 {
+h4 {
     letter-spacing: 3px;
     text-transform: uppercase;
     text-decoration: underline;
 }
     
-#vilka {
+/* Kontaktformulär */
+#kontaktformulär {
     border: 4px solid #ddcdd2;
     background: white;
     opacity: 0.9;
@@ -232,27 +251,32 @@ i {
     overflow: scroll;
     padding: 1%;
     line-height: 22px;
+    padding: 1.5rem;
 }
 
+/* Footer med logga, copyright,  adress, följ oss, om oss, quicklinks  */
+
     .footer{
-        border: 1px solid white;
-        margin: 3rem;
-        height: 15rem;
-        padding: 3rem;
-        display: flex;
-        flex-direction: row;
-        color: white;
-        line-height: 2rem;
+    border: 1px solid white;
+    margin: 3rem;
+    height: 15rem;
+    padding: 3rem;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    line-height: 2rem;
         
            
 }
 
 h5 {
     text-transform: uppercase;
-letter-spacing: 6px;
-font-weight: bold;
-color: white;
+    letter-spacing: 6px;
+    font-weight: bold;
+    color: white;
 }
+
+/* Logga och copyright */
 
 #fitly {
     height: 5rem;
@@ -261,26 +285,31 @@ color: white;
     text-align: center;
 }
 
+/* Adress */
 #flex1 {
     height: 10rem;
     width: 25rem;
 }
 
+/* Följ oss */
 #flex2 {
     height: 10rem;
     width: 25rem;
 }
 
+/* Om oss */
 #flex3 {
     height: 10rem;
     width: 25rem;
 }
 
+/* Quicklinks */
 #flex4 {
     height: 10rem;
     width: 25rem;
 }
 
+/* Länkstyling */
 a:link {
     color: white;
 }
@@ -290,17 +319,114 @@ a:hover {
     color: palevioletred;
 }
 
-
 i {
-    color: palevioletred;
+    color: #7D6D76
+    ;
 }
    
+
+@media screen and (max-width: 1300px){
+
+    .gridbox {
+        justify-content: center;
+        padding: 0.5rem;
+    }
+    #grid1 {
+        border: 2px solid white;
+        height: 17rem;
+        width: 17rem;
+        background: url(ceo.jpg);
+        background-size: cover;
+       background-position: 40%;
+    }
+    
+    #grid2 {
+        border: 2px solid white;
+        height: 17rem;
+        width: 17rem;
+        background: url(PT2.jpg);
+        background-size: cover;
+        background-position: 20%;
+    }
+    
+    #grid3 {
+        border: 2px solid white;
+        height: 17rem;
+        width: 17rem;
+        background: url(PT.jpg);
+        background-size: cover;
+    }
+    
+    #grid4 {
+        border: 2px solid white;
+        height: 17rem;
+        width: 17rem;
+        background: url(yoga1.jpg);
+        background-size: cover;
+        background-position: 10%;
+    }
+    
+    
+    #grid5 {
+        border: 2px solid white;
+        height: 17rem;
+        width: 17rem;
+        color: #37373d;
+        padding: 1.5rem;
+        overflow: scroll;
+        background-color: #EAEAEA;
+        opacity: 0.9;
+    
+       
+    }
+    
+    #grid6 {
+        border: 2px solid white;
+        height: 17rem;
+        width: 17rem;
+        color: #37373d;
+        padding: 1.5rem;
+        overflow: scroll;
+        background-color: #EAEAEA;
+        opacity: 0.9;
+    
+    
+    
+    }
+    
+    #grid7 {
+        border: 2px solid white;
+        height: 17rem;
+        width: 17rem;
+        color: #37373d;
+        padding: 1.5rem;
+        overflow: scroll;
+        background-color: #EAEAEA;
+        opacity: 0.9;
+    
+    
+    }
+    
+    #grid8 {
+        border: 2px solid white;
+        height: 17rem;
+        width: 17rem;
+        color: #37373d;
+        padding: 1.5rem;
+        overflow: scroll;
+        background-color: #EAEAEA;
+        opacity: 0.9;
+    
+       
+    }
+}
+
 @media screen and (max-width: 1000px){
     .gridbox {
         justify-content: center;
         padding: 0.5rem;
     }
-    #grid1{
+    #grid1 {
         border: 2px solid white;
         height: 12rem;
         width: 12rem;
@@ -309,7 +435,7 @@ i {
        background-position: 40%;
     }
     
-    #grid2{
+    #grid2 {
         border: 2px solid white;
         height: 12rem;
         width: 12rem;
@@ -318,7 +444,7 @@ i {
         background-position: 20%;
     }
     
-    #grid3{
+    #grid3 {
         border: 2px solid white;
         height: 12rem;
         width: 12rem;
@@ -326,7 +452,7 @@ i {
         background-size: cover;
     }
     
-    #grid4{
+    #grid4 {
         border: 2px solid white;
         height: 12rem;
         width: 12rem;
@@ -336,7 +462,7 @@ i {
     }
     
     
-    #grid5{
+    #grid5 {
         border: 2px solid white;
         height: 12rem;
         width: 12rem;
@@ -349,7 +475,7 @@ i {
        
     }
     
-    #grid6{
+    #grid6 {
         border: 2px solid white;
         height: 12rem;
         width: 12rem;
@@ -363,7 +489,7 @@ i {
     
     }
     
-    #grid7{
+    #grid7 {
         border: 2px solid white;
         height: 12rem;
         width: 12rem;
@@ -376,7 +502,7 @@ i {
     
     }
     
-    #grid8{
+    #grid8 {
         border: 2px solid white;
         height: 12rem;
         width: 12rem;
@@ -390,20 +516,19 @@ i {
     }
 
 
-    .footer{
+    .footer {
         border: 1px solid white;
         margin: 1.5rem;
        padding: 1rem;
        height: 13rem;
-        
            }
 
-           #fitly{
-            height: 10rem;
-            width: 10rem;
-            font-size: 95%;
-         
-        }
+    #fitly {
+        height: 10rem;
+        width: 10rem;
+        font-size: 95%;
+         }
+
     #flex1 {
         height: 10rem;
         width: 10rem;
@@ -439,17 +564,17 @@ i {
     
     
     
-    img{
+    img {
         height: 5rem;
         width: 5rem;
     }
-
-
   }
+
+  /* Responsiv för liten skärm max 768px, tex mobiler */
 
 @media screen and (max-width: 768px){
 
-    .del-1{
+    .del-1 {
         height: 22rem;
         width: 100%;
         background: url(bakgrund1.jpg);
@@ -460,7 +585,7 @@ i {
     
     }
 
-    #yoga{
+    #yoga {
         height: 2rem;
         width: 18rem;
         position: relative;
@@ -468,7 +593,7 @@ i {
         left: 2%;
     }
     
-    #yogi{
+    #yogi {
         color:#c7b1ac;
         font-size: 1.5rem;
         font-weight: bold;
@@ -480,7 +605,7 @@ i {
     letter-spacing: 5px;
         }
     
-    #yogi1{
+    #yogi1 {
     color: #c7b1ac;
     font-size: 0.5rem;
     font-weight: bold;
@@ -492,7 +617,7 @@ i {
     letter-spacing: 1.5px;
     }
     
-    .yogi2{
+    .yogi2 {
        
         position: relative;
         top: 75%;
@@ -501,56 +626,49 @@ i {
     
     }
     
-    
-    .h3{
+    .h3 {
         text-align: center;
         margin: 2rem;
         position: relative;
         top: 2rem;
         color: white;
         text-transform: uppercase;
-    letter-spacing: 15px;
-    
-        
+    letter-spacing: 15px;        
     }
-   
-    
+       
     .gridbox {
         justify-content: center;
         padding: 1rem;
     }
 
-    #grid1{
+    #grid1 {
         border: 1px solid white;
         height: 12rem;
         width: 12rem;
         background: url(ceo.jpg);
         background-size: cover;
        background-position: 40%;
-
     }
     
-    #grid2{
+    #grid2 {
         border: 1px solid white;
         height: 12rem;
         width: 12rem;
         background: url(PT2.jpg);
         background-size: cover;
         background-position: 20%;
-
     }
     
-    #grid3{
+    #grid3 {
         border: 1px solid white;
         height: 12rem;
         width: 12rem;
         background: url(PT.jpg);
         background-size: cover;
         grid-row-start: 4;
-
     }
     
-    #grid4{
+    #grid4 {
         border: 1px solid white;
         height: 12rem;
         width: 12rem;
@@ -559,11 +677,10 @@ i {
         background-position: 10%;
         grid-row-start: 4;
         grid-column-start: 2;
-
     }
     
     
-    #grid5{
+    #grid5 {
         border: 2px solid white;
         height: 12rem;
         width: 12rem;
@@ -574,12 +691,9 @@ i {
         opacity: 0.9;
         font-size: 90%;
         grid-row-start: 2;
-
-
-       
     }
     
-    #grid6{
+    #grid6 {
         border: 2px solid white;
         height: 12rem;
         width: 12rem;
@@ -591,12 +705,9 @@ i {
         font-size: 90%;
         grid-row-start:2;
         grid-column-start: 2;
-
-    
-    
     }
     
-    #grid7{
+    #grid7 {
         border: 2px solid white;
         height: 12rem;
         width: 12rem;
@@ -608,11 +719,9 @@ i {
         font-size: 90%;
         grid-row-start: 5;
         grid-column-start: 1;
-
-    
     }
     
-    #grid8{
+    #grid8 {
         border: 2px solid white;
         height: 12rem;
         width: 12rem;
@@ -624,57 +733,53 @@ i {
         font-size: 90%;
         grid-row-start: 5; 
         grid-column-start: 2;
-
     }
 
-    #grid9{
+    #grid9 {
         grid-row-start: 3;
         grid-column-start: 1;
-
     }
-    #grid10{
+
+   #grid10 {
         grid-row-start: 3;
         grid-column-start: 2;
 
     }
-    #grid11{
+
+    #grid11 {
         grid-row-start: 6;
         grid-column-start: 1;
     }
-    #grid12{
+
+    #grid12 {
         grid-row-start: 6;
         grid-column-start: 2;
-
     }
-
-
-
-
     
-h6{
-            text-transform: uppercase;
+    h6 {
+        text-transform: uppercase;
         letter-spacing: 2px;
         font-size: 60%;
-        }
+    }
         
-h4 {
-            text-transform: uppercase;
+    h4 {
+        text-transform: uppercase;
         font-weight: bold;
-        font-size: 100%;
-        
+        font-size: 100%;   
         }
-h5 {
-            text-transform: uppercase;
-        font-weight: bold;
-        font-size: 100%;
+
+    h5 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 100%;
         
         }
        
     i {
-            margin-right: 11px;
+       margin-right: 11px;
         }
 
-        .kontakt{
+    .kontakt {
             height: 90%;
             width: 100%;
             background: #c7b1ac;
@@ -685,7 +790,7 @@ h5 {
             font-size: 100%;            
             }
 
-          #kontakta-oss{
+    #kontakta-oss {
             border: 4px solid #ddcdd2;
             background: white;
             opacity: 0.9;
@@ -696,10 +801,8 @@ h5 {
             line-height: 20px;
             font-size: 100%;
             }
-        
     
-
-    .footer{
+    .footer {
         border: 1px solid white;
         margin: 2rem;
         height: 25rem;
@@ -712,25 +815,25 @@ h5 {
         color: white;
         line-height: 1.5rem;
         justify-content: space-between;
-        
-           }
+        }
 
-    #fitly{
+    #fitly {
         height: 10rem;
         width: 10rem;
         font-size: 80%;
         grid-row-start: 3;
-            grid-column-start: 1;
-            position: relative;
-            top: -37%;
-            left: -35%;
+        grid-column-start: 1;
+        position: relative;
+        top: -37%;
+        left: -35%;
     }
+
 #flex1 {
     height: 10rem;
     width: 10rem;
     font-size: 80%;
     grid-row-start: 1;
-        grid-column-start: 1;
+    grid-column-start: 1;
 }
 
 #flex2 {
@@ -738,8 +841,7 @@ h5 {
     width: 10rem;
     font-size: 80%;
     grid-row-start: 1;
-        grid-column-start: 2;
-
+    grid-column-start: 2;
 }
 
 #flex3 {
@@ -747,8 +849,7 @@ h5 {
     width: 10rem;
     font-size: 80%;
     grid-row-start: 2;
-        grid-column-start: 1;
-
+    grid-column-start: 1;
 }
 
 #flex4 {
@@ -756,8 +857,7 @@ h5 {
     width: 10rem;
     font-size: 80%;
     grid-row-start: 2;
-        grid-column-start: 2;
-
+    grid-column-start: 2;
 }
 
 a {
@@ -765,16 +865,13 @@ a {
 }
 
 h5 {
-    font-size: 100%;
+    font-size: 80%;
 }
 
-img{
+img {
     height: 3rem;
     width: 3rem;
 }
-
-
-
-  }
+}
 
   
